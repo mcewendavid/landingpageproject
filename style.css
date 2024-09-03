@@ -40,7 +40,9 @@ a:link{
     background-color: #1F2937;
     display: flex;
     justify-content: center;
+    justify-content: space-evenly;
     padding: 80px;
+    flex-shrink: auto;
 
 }
 
@@ -48,6 +50,9 @@ a:link{
     font-size: 42px;
     font-weight: 900;
     color:#F9FAF8;
+    width: 636px;
+    height: 96px;
+    
 }
 
 .Small-Text{
@@ -58,4 +63,111 @@ a:link{
 .Button1{
     background-color: #3882F6;
     color: #E5E7EB;
+    border: none;
+    Padding: 5px;
+    border-radius: 4px;
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.Information{
+    text-align: center;
+    font-size: 36px;
+    color:#1F2937;
+    font-weight:900;
+    Margin: 40px;
+}
+
+.Container2{
+    display:flex;
+    Justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.info{
+    width: 225px;
+    height:200px;
+    text-align: center;
+    color:#1F2937;
+    font-weight: lighter;
+    border-radius: 5px;
+    border-color: #3882F6;
+}
+
+#image1, #image2, #image3, #image4 {
+    border-radius: 5%;
+    border: 5px solid;
+    border-color: #3882F6;
+}
+
+.Section3{
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.Testimonial{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.source{
+    font-size: 18px;
+    color:#1F2937;
+    display: flex;
+    justify-content: right;
+}
+
+.Section4{
+    background-color:#3882F6;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 125px;
+    margin-right: 125px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    border-radius: 5px;
+    min-width: fit-content;
+}
+
+.textcontainer{
+    margin-right: 50px;
+}
+
+.Button2{
+    background-color: #3882F6;
+    border: none;
+    border: 2px solid;
+    border-radius: 4px;
+    border-color: #F9FAF8;
+    box-shadow: none;
+    color: #F9FAF8;
+    min-width: 90px;
+    max-height: 36px;
+}
+.calltoaction{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.undertext{
+    font-size: 18px;
+    color:#F9FAF8;
+    min-width: 430px;
+}
+
+.footer{
+    background-color:#1F2937;
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 40px;
+    
 }
