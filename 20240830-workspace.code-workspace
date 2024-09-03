@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "05-flex-modal",
+			"path": "../css-exercises/css-exercises/flex/05-flex-modal"
+		},
+		{
+			"name": "06-flex-layout",
+			"path": "../css-exercises/css-exercises/flex/06-flex-layout"
+		},
+		{
+			"name": "07-flex-layout-2",
+			"path": "../css-exercises/css-exercises/flex/07-flex-layout-2"
+		},
+		{
+			"name": "04-flex-information",
+			"path": "../css-exercises/css-exercises/flex/04-flex-information"
+		},
+		{
+			"name": "landingpageproject",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
