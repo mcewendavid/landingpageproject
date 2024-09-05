@@ -42,8 +42,13 @@ a:link{
     justify-content: center;
     justify-content: space-evenly;
     padding: 80px;
-    flex-shrink: auto;
+    flex-shrink: 1;
 
+}
+
+.largeimage{
+    display:flex;
+    flex-shrink: 2;
 }
 
 .Large-Text{
@@ -52,13 +57,14 @@ a:link{
     color:#F9FAF8;
     width: 636px;
     height: 96px;
-    
 }
 
 .Small-Text{
     font-size: 18px;
     color: #E5E7EB;
+
 }
+
 
 .Button1{
     background-color: #3882F6;
@@ -122,18 +128,25 @@ a:link{
 }
 
 .Section4{
-    background-color:#3882F6;
-    margin-top: 70px;
-    margin-bottom: 70px;
-    margin-left: 125px;
-    margin-right: 125px;
-    padding: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+}
+
+.Bluebox{
+    background-color:#3882F6;
+    display: flex;
+    flex: 121;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1000px;
+    max-height: ;
+    padding: 40px;
     border-radius: 5px;
-    min-width: fit-content;
+    margin-top:70px;
+    margin-bottom:70px;
+    flex-wrap:wrap;
 }
 
 .textcontainer{
